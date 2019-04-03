@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07110062-25D2-48C4-8550-674C969C3AE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SECCP_B.My.MyApplication</StartupObject>
+    <RootNamespace>SECCP_B</RootNamespace>
+    <AssemblyName>SECCP_B</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SECCP_B.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SECCP_B.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos_Generales.Designer.vb">
+      <DependentUpon>Datos_Generales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Datos_Generales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entidades\Especialidad.vb" />
+    <Compile Include="Entidades\Profesion.vb" />
+    <Compile Include="Entidades\Rol.vb" />
+    <Compile Include="Entidades\Persona.vb" />
+    <Compile Include="AdminRolesUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRolesUsuarios.Designer.vb">
+      <DependentUpon>AdminRolesUsuarios.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemporal_Especialidad.Designer.vb">
+      <DependentUpon>frmTemporal_Especialidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemporal_Especialidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginView.Designer.vb">
+      <DependentUpon>LoginView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Datos.Designer.vb">
+      <DependentUpon>Menu_Datos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Datos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Opciones_Usuario.Designer.vb">
+      <DependentUpon>Opciones_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrigenDatos\ConexionSQLServer.vb" />
+    <Compile Include="OrigenDatos\IConexionDatos.vb" />
+    <Compile Include="Repositorios\IRepositorio.vb" />
+    <Compile Include="Repositorios\IRepositorioProfesiones.vb" />
+    <Compile Include="Repositorios\RepositorioBase.vb" />
+    <Compile Include="Repositorios\RepositorioPersona.vb" />
+    <Compile Include="Repositorios\RepositorioProfesiones.vb" />
+    <Compile Include="Repositorios\FabricaRepositorios.vb" />
+    <Compile Include="Servicios\ServicioBase.vb" />
+    <Compile Include="Servicios\ServicioEspecialidad.vb" />
+    <Compile Include="Servicios\ServicioLogin.vb" />
+    <Compile Include="Servicios\ServicioProfesiones.vb" />
+    <Compile Include="Servicios\ServicioRoles.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Datos_Generales.resx">
+      <DependentUpon>Datos_Generales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemporal_Especialidad.resx">
+      <DependentUpon>frmTemporal_Especialidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Datos.resx">
+      <DependentUpon>Menu_Datos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRolesUsuarios.resx">
+      <DependentUpon>AdminRolesUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginView.resx">
+      <DependentUpon>LoginView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones_Usuario.resx">
+      <DependentUpon>Opciones_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrar_usuarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roles_usuarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roles_a_Usuarios.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
