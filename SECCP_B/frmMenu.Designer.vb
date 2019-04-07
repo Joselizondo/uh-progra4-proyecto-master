@@ -61,9 +61,10 @@ Partial Class frmMenu
         Me.PanelSuperior.Controls.Add(Me.BtnOcultar)
         Me.PanelSuperior.Controls.Add(Me.BtnAjustar)
         Me.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelSuperior.Location = New System.Drawing.Point(197, 0)
+        Me.PanelSuperior.Location = New System.Drawing.Point(263, 0)
+        Me.PanelSuperior.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelSuperior.Name = "PanelSuperior"
-        Me.PanelSuperior.Size = New System.Drawing.Size(803, 118)
+        Me.PanelSuperior.Size = New System.Drawing.Size(1070, 145)
         Me.PanelSuperior.TabIndex = 1
         '
         'btnlogin
@@ -71,9 +72,10 @@ Partial Class frmMenu
         Me.btnlogin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnlogin.Image = Global.SECCP_B.My.Resources.Resources.Login
-        Me.btnlogin.Location = New System.Drawing.Point(489, 41)
+        Me.btnlogin.Location = New System.Drawing.Point(651, 50)
+        Me.btnlogin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnlogin.Name = "btnlogin"
-        Me.btnlogin.Size = New System.Drawing.Size(39, 35)
+        Me.btnlogin.Size = New System.Drawing.Size(52, 43)
         Me.btnlogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.btnlogin.TabIndex = 6
         Me.btnlogin.TabStop = False
@@ -82,10 +84,10 @@ Partial Class frmMenu
         '
         Me.usuariologeado.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.usuariologeado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.usuariologeado.Location = New System.Drawing.Point(534, 54)
-        Me.usuariologeado.Margin = New System.Windows.Forms.Padding(3)
+        Me.usuariologeado.Location = New System.Drawing.Point(711, 66)
+        Me.usuariologeado.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.usuariologeado.Name = "usuariologeado"
-        Me.usuariologeado.Size = New System.Drawing.Size(165, 22)
+        Me.usuariologeado.Size = New System.Drawing.Size(220, 27)
         Me.usuariologeado.TabIndex = 5
         Me.usuariologeado.Text = "No logueado"
         '
@@ -94,9 +96,10 @@ Partial Class frmMenu
         Me.BtnCerrar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCerrar.Image = CType(resources.GetObject("BtnCerrar.Image"), System.Drawing.Image)
-        Me.BtnCerrar.Location = New System.Drawing.Point(764, 41)
+        Me.BtnCerrar.Location = New System.Drawing.Point(1018, 50)
+        Me.BtnCerrar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(27, 29)
+        Me.BtnCerrar.Size = New System.Drawing.Size(36, 36)
         Me.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnCerrar.TabIndex = 4
         Me.BtnCerrar.TabStop = False
@@ -106,9 +109,10 @@ Partial Class frmMenu
         Me.BtnMaximizar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnMaximizar.Image = CType(resources.GetObject("BtnMaximizar.Image"), System.Drawing.Image)
-        Me.BtnMaximizar.Location = New System.Drawing.Point(731, 41)
+        Me.BtnMaximizar.Location = New System.Drawing.Point(974, 50)
+        Me.BtnMaximizar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnMaximizar.Name = "BtnMaximizar"
-        Me.BtnMaximizar.Size = New System.Drawing.Size(27, 29)
+        Me.BtnMaximizar.Size = New System.Drawing.Size(36, 36)
         Me.BtnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnMaximizar.TabIndex = 3
         Me.BtnMaximizar.TabStop = False
@@ -118,9 +122,10 @@ Partial Class frmMenu
         Me.BtnMinimizar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnMinimizar.Image = CType(resources.GetObject("BtnMinimizar.Image"), System.Drawing.Image)
-        Me.BtnMinimizar.Location = New System.Drawing.Point(698, 41)
+        Me.BtnMinimizar.Location = New System.Drawing.Point(930, 50)
+        Me.BtnMinimizar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnMinimizar.Name = "BtnMinimizar"
-        Me.BtnMinimizar.Size = New System.Drawing.Size(27, 29)
+        Me.BtnMinimizar.Size = New System.Drawing.Size(36, 36)
         Me.BtnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnMinimizar.TabIndex = 1
         Me.BtnMinimizar.TabStop = False
@@ -129,9 +134,10 @@ Partial Class frmMenu
         '
         Me.BtnOcultar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnOcultar.Image = CType(resources.GetObject("BtnOcultar.Image"), System.Drawing.Image)
-        Me.BtnOcultar.Location = New System.Drawing.Point(29, 41)
+        Me.BtnOcultar.Location = New System.Drawing.Point(39, 50)
+        Me.BtnOcultar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnOcultar.Name = "BtnOcultar"
-        Me.BtnOcultar.Size = New System.Drawing.Size(33, 29)
+        Me.BtnOcultar.Size = New System.Drawing.Size(44, 36)
         Me.BtnOcultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnOcultar.TabIndex = 0
         Me.BtnOcultar.TabStop = False
@@ -141,9 +147,10 @@ Partial Class frmMenu
         Me.BtnAjustar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnAjustar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnAjustar.Image = CType(resources.GetObject("BtnAjustar.Image"), System.Drawing.Image)
-        Me.BtnAjustar.Location = New System.Drawing.Point(731, 41)
+        Me.BtnAjustar.Location = New System.Drawing.Point(974, 50)
+        Me.BtnAjustar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnAjustar.Name = "BtnAjustar"
-        Me.BtnAjustar.Size = New System.Drawing.Size(27, 29)
+        Me.BtnAjustar.Size = New System.Drawing.Size(36, 36)
         Me.BtnAjustar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnAjustar.TabIndex = 2
         Me.BtnAjustar.TabStop = False
@@ -154,9 +161,10 @@ Partial Class frmMenu
         Me.PanelCentral.BackColor = System.Drawing.Color.White
         Me.PanelCentral.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelCentral.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.PanelCentral.Location = New System.Drawing.Point(197, 118)
+        Me.PanelCentral.Location = New System.Drawing.Point(263, 145)
+        Me.PanelCentral.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelCentral.Name = "PanelCentral"
-        Me.PanelCentral.Size = New System.Drawing.Size(803, 582)
+        Me.PanelCentral.Size = New System.Drawing.Size(1070, 717)
         Me.PanelCentral.TabIndex = 0
         '
         'PanelLateral
@@ -171,8 +179,9 @@ Partial Class frmMenu
         Me.PanelLateral.Controls.Add(Me.PictureBox1)
         Me.PanelLateral.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelLateral.Location = New System.Drawing.Point(0, 0)
+        Me.PanelLateral.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelLateral.Name = "PanelLateral"
-        Me.PanelLateral.Size = New System.Drawing.Size(197, 700)
+        Me.PanelLateral.Size = New System.Drawing.Size(263, 862)
         Me.PanelLateral.TabIndex = 0
         '
         'Button1
@@ -185,9 +194,10 @@ Partial Class frmMenu
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(20, 508)
+        Me.Button1.Location = New System.Drawing.Point(27, 625)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(177, 92)
+        Me.Button1.Size = New System.Drawing.Size(236, 113)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "                            LOG-OUT"
         Me.Button1.UseVisualStyleBackColor = False
@@ -202,9 +212,10 @@ Partial Class frmMenu
         Me.BtnUsuarios.ForeColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.BtnUsuarios.Image = CType(resources.GetObject("BtnUsuarios.Image"), System.Drawing.Image)
         Me.BtnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnUsuarios.Location = New System.Drawing.Point(20, 312)
+        Me.BtnUsuarios.Location = New System.Drawing.Point(27, 384)
+        Me.BtnUsuarios.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnUsuarios.Name = "BtnUsuarios"
-        Me.BtnUsuarios.Size = New System.Drawing.Size(177, 92)
+        Me.BtnUsuarios.Size = New System.Drawing.Size(236, 113)
         Me.BtnUsuarios.TabIndex = 7
         Me.BtnUsuarios.Text = "               ""USUARIOS"""
         Me.BtnUsuarios.UseVisualStyleBackColor = False
@@ -219,9 +230,10 @@ Partial Class frmMenu
         Me.BtnContraseña.ForeColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.BtnContraseña.Image = CType(resources.GetObject("BtnContraseña.Image"), System.Drawing.Image)
         Me.BtnContraseña.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnContraseña.Location = New System.Drawing.Point(20, 410)
+        Me.BtnContraseña.Location = New System.Drawing.Point(27, 505)
+        Me.BtnContraseña.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnContraseña.Name = "BtnContraseña"
-        Me.BtnContraseña.Size = New System.Drawing.Size(177, 92)
+        Me.BtnContraseña.Size = New System.Drawing.Size(236, 113)
         Me.BtnContraseña.TabIndex = 8
         Me.BtnContraseña.Text = "                        CAMBIAR                        CONTRASEÑA"
         Me.BtnContraseña.UseVisualStyleBackColor = False
@@ -236,9 +248,10 @@ Partial Class frmMenu
         Me.BtnCitas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.BtnCitas.Image = CType(resources.GetObject("BtnCitas.Image"), System.Drawing.Image)
         Me.BtnCitas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnCitas.Location = New System.Drawing.Point(20, 214)
+        Me.BtnCitas.Location = New System.Drawing.Point(27, 263)
+        Me.BtnCitas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCitas.Name = "BtnCitas"
-        Me.BtnCitas.Size = New System.Drawing.Size(177, 92)
+        Me.BtnCitas.Size = New System.Drawing.Size(236, 113)
         Me.BtnCitas.TabIndex = 6
         Me.BtnCitas.Text = "               ASIGNAR CITAS"
         Me.BtnCitas.UseVisualStyleBackColor = False
@@ -253,9 +266,10 @@ Partial Class frmMenu
         Me.BtnBusqueda.ForeColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(249, Byte), Integer))
         Me.BtnBusqueda.Image = CType(resources.GetObject("BtnBusqueda.Image"), System.Drawing.Image)
         Me.BtnBusqueda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BtnBusqueda.Location = New System.Drawing.Point(20, 116)
+        Me.BtnBusqueda.Location = New System.Drawing.Point(27, 143)
+        Me.BtnBusqueda.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnBusqueda.Name = "BtnBusqueda"
-        Me.BtnBusqueda.Size = New System.Drawing.Size(177, 92)
+        Me.BtnBusqueda.Size = New System.Drawing.Size(236, 113)
         Me.BtnBusqueda.TabIndex = 5
         Me.BtnBusqueda.Text = "               BUSQUEDAS"
         Me.BtnBusqueda.UseVisualStyleBackColor = False
@@ -263,23 +277,25 @@ Partial Class frmMenu
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 22)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 27)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(59, 48)
+        Me.PictureBox1.Size = New System.Drawing.Size(79, 59)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'frmMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1000, 700)
+        Me.ClientSize = New System.Drawing.Size(1333, 862)
         Me.Controls.Add(Me.PanelCentral)
         Me.Controls.Add(Me.PanelSuperior)
         Me.Controls.Add(Me.PanelLateral)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.IsMdiContainer = True
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"

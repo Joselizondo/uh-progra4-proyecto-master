@@ -124,6 +124,10 @@ Public Class frmMenu
         Me.PanelCentral.Controls.Add(frmPanelCentral) 'la ubicas o asignas el panel donde va a estar
         frmPanelCentral.Show() ' la muestras
     End Sub
+
+    Private Sub PanelSuperior_Paint(sender As Object, e As PaintEventArgs) Handles PanelSuperior.Paint
+
+    End Sub
 End Class
 
 

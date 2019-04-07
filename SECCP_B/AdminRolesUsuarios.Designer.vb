@@ -52,9 +52,11 @@ Partial Class Roles
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TXT_BUSCAR)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(40, 63)
+        Me.GroupBox1.Location = New System.Drawing.Point(53, 78)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(573, 198)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(764, 244)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Busqueda de usuario"
@@ -65,9 +67,10 @@ Partial Class Roles
         Me.LISTA.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LISTA.FullRowSelect = True
         Me.LISTA.GridLines = True
-        Me.LISTA.Location = New System.Drawing.Point(20, 64)
+        Me.LISTA.Location = New System.Drawing.Point(27, 79)
+        Me.LISTA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LISTA.Name = "LISTA"
-        Me.LISTA.Size = New System.Drawing.Size(539, 117)
+        Me.LISTA.Size = New System.Drawing.Size(717, 143)
         Me.LISTA.TabIndex = 2
         Me.LISTA.UseCompatibleStateImageBehavior = False
         Me.LISTA.View = System.Windows.Forms.View.Details
@@ -96,17 +99,19 @@ Partial Class Roles
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(22, 37)
+        Me.Label1.Location = New System.Drawing.Point(29, 46)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.Size = New System.Drawing.Size(57, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Usuario"
         '
         'TXT_BUSCAR
         '
-        Me.TXT_BUSCAR.Location = New System.Drawing.Point(67, 34)
+        Me.TXT_BUSCAR.Location = New System.Drawing.Point(89, 42)
+        Me.TXT_BUSCAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TXT_BUSCAR.Name = "TXT_BUSCAR"
-        Me.TXT_BUSCAR.Size = New System.Drawing.Size(284, 20)
+        Me.TXT_BUSCAR.Size = New System.Drawing.Size(377, 23)
         Me.TXT_BUSCAR.TabIndex = 0
         '
         'ASIGROLES
@@ -116,9 +121,11 @@ Partial Class Roles
         Me.ASIGROLES.Controls.Add(Me.LB_USER)
         Me.ASIGROLES.Controls.Add(Me.Label2)
         Me.ASIGROLES.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ASIGROLES.Location = New System.Drawing.Point(48, 275)
+        Me.ASIGROLES.Location = New System.Drawing.Point(64, 338)
+        Me.ASIGROLES.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ASIGROLES.Name = "ASIGROLES"
-        Me.ASIGROLES.Size = New System.Drawing.Size(565, 101)
+        Me.ASIGROLES.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ASIGROLES.Size = New System.Drawing.Size(753, 124)
         Me.ASIGROLES.TabIndex = 2
         Me.ASIGROLES.TabStop = False
         Me.ASIGROLES.Text = "Asignacion de roles"
@@ -128,27 +135,30 @@ Partial Class Roles
         Me.CB_ROL.Enabled = False
         Me.CB_ROL.FormattingEnabled = True
         Me.CB_ROL.Items.AddRange(New Object() {"Archivo", "Administrador", "Enfermera", "Médico", "Médico Internista", "Médico Especialista", "Psicólogo", "Terapista", "Coordinador de terapias", "Enfermera de Internamiento", "Director"})
-        Me.CB_ROL.Location = New System.Drawing.Point(249, 26)
+        Me.CB_ROL.Location = New System.Drawing.Point(332, 32)
+        Me.CB_ROL.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CB_ROL.Name = "CB_ROL"
-        Me.CB_ROL.Size = New System.Drawing.Size(165, 21)
+        Me.CB_ROL.Size = New System.Drawing.Size(219, 24)
         Me.CB_ROL.TabIndex = 6
         '
         'Rol
         '
         Me.Rol.AutoSize = True
         Me.Rol.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rol.Location = New System.Drawing.Point(220, 29)
+        Me.Rol.Location = New System.Drawing.Point(293, 36)
+        Me.Rol.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Rol.Name = "Rol"
-        Me.Rol.Size = New System.Drawing.Size(23, 13)
+        Me.Rol.Size = New System.Drawing.Size(29, 17)
         Me.Rol.TabIndex = 5
         Me.Rol.Text = "Rol"
         '
         'LB_USER
         '
         Me.LB_USER.AutoSize = True
-        Me.LB_USER.Location = New System.Drawing.Point(59, 29)
+        Me.LB_USER.Location = New System.Drawing.Point(79, 36)
+        Me.LB_USER.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LB_USER.Name = "LB_USER"
-        Me.LB_USER.Size = New System.Drawing.Size(71, 13)
+        Me.LB_USER.Size = New System.Drawing.Size(92, 17)
         Me.LB_USER.TabIndex = 4
         Me.LB_USER.Text = "Sin registro"
         '
@@ -156,9 +166,10 @@ Partial Class Roles
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(14, 29)
+        Me.Label2.Location = New System.Drawing.Point(19, 36)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 13)
+        Me.Label2.Size = New System.Drawing.Size(61, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Usuario:"
         '
@@ -172,9 +183,10 @@ Partial Class Roles
         Me.BTN_REGRESAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTN_REGRESAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTN_REGRESAR.Image = Global.SECCP_B.My.Resources.Resources.Cancelar2
-        Me.BTN_REGRESAR.Location = New System.Drawing.Point(524, 382)
+        Me.BTN_REGRESAR.Location = New System.Drawing.Point(699, 470)
+        Me.BTN_REGRESAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_REGRESAR.Name = "BTN_REGRESAR"
-        Me.BTN_REGRESAR.Size = New System.Drawing.Size(116, 41)
+        Me.BTN_REGRESAR.Size = New System.Drawing.Size(155, 50)
         Me.BTN_REGRESAR.TabIndex = 7
         Me.BTN_REGRESAR.UseVisualStyleBackColor = True
         '
@@ -183,9 +195,10 @@ Partial Class Roles
         Me.BtnCerrar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCerrar.Image = CType(resources.GetObject("BtnCerrar.Image"), System.Drawing.Image)
-        Me.BtnCerrar.Location = New System.Drawing.Point(671, 12)
+        Me.BtnCerrar.Location = New System.Drawing.Point(895, 15)
+        Me.BtnCerrar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(27, 29)
+        Me.BtnCerrar.Size = New System.Drawing.Size(36, 36)
         Me.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.BtnCerrar.TabIndex = 7
         Me.BtnCerrar.TabStop = False
@@ -201,24 +214,26 @@ Partial Class Roles
         Me.BTN_ACTUALIZAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTN_ACTUALIZAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BTN_ACTUALIZAR.Image = Global.SECCP_B.My.Resources.Resources.actualizar
-        Me.BTN_ACTUALIZAR.Location = New System.Drawing.Point(380, 382)
+        Me.BTN_ACTUALIZAR.Location = New System.Drawing.Point(507, 470)
+        Me.BTN_ACTUALIZAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BTN_ACTUALIZAR.Name = "BTN_ACTUALIZAR"
-        Me.BTN_ACTUALIZAR.Size = New System.Drawing.Size(116, 41)
+        Me.BTN_ACTUALIZAR.Size = New System.Drawing.Size(155, 50)
         Me.BTN_ACTUALIZAR.TabIndex = 1
         Me.BTN_ACTUALIZAR.UseVisualStyleBackColor = True
         '
         'Roles
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(784, 511)
+        Me.ClientSize = New System.Drawing.Size(1045, 629)
         Me.Controls.Add(Me.BTN_REGRESAR)
         Me.Controls.Add(Me.BtnCerrar)
         Me.Controls.Add(Me.ASIGROLES)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.BTN_ACTUALIZAR)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Roles"
